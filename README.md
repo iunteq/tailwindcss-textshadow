@@ -6,11 +6,11 @@ A Utility Plugins for Text Shadow like Tailwindcss default boxshadow with theme 
 
 #### Yarn
 ```
-yarn add tailwindcss-textShadow --dev
+yarn add tailwindcss-textshadow --dev
 ```
 #### npm
 ```
-npm i --save-dev tailwindcss-textShadow
+npm i --save-dev tailwindcss-textshadow
 ```
 ## Add following changes in tailwind.config.js
 
