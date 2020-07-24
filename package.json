@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-textshadow",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A Utility Plugins for Text Shadow like Tailwindcss default boxshadow with theme and variants option.",
   "main": "index.js",
   "repository": {
