@@ -44,7 +44,7 @@ Add the plugin to the `plugins` array in your Tailwind configuration file `(tail
 
 ```javascript
 plugins: [
-  require('tailwindcss-textShadow')
+  require('tailwindcss-textshadow')
 ]
 ```
 > :beer: **Congratulations! You are ready to use `text-shadow` in your project.**
