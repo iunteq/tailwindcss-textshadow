@@ -1,11 +1,11 @@
 # tailwindcss-textShadow
-A Utility Plugins for controlling Text Shadow of an element.
+A Utility Plugins for controlling Text Shadow of an text element.
 
 
 
 |  Class   |   Properties  |
 |----------|-------------|
-| `.text-shadow`   | `text-shadow: 1px 0px 0px rgb(0 0 0 / 20%), 0px 1px 0px rgb(1 0 5 / 10%);` |
+| `.text-shadow`   | `text-shadow: 0px 0px 1px rgb(0 0 0 / 20%), 0px 0px 1px rgb(1 0 5 / 10%);` |
 | `.text-shadow-sm` | `text-shadow: 1px 1px 3px rgb(36 37 47 / 25%);`|
 | `.text-shadow-md` | `text-shadow: 0px 1px 2px rgb(30 29 39 / 19%), 1px 2px 4px rgb(54 64 147 / 18%)`|
 | `.text-shadow-lg` | `text-shadow: 3px 3px 6px rgb(0 0 0 / 26%), 0 0 5px rgb(15 3 86 / 22%)`|
@@ -90,10 +90,10 @@ If a `default` text shadow is provided, it will be used for the *non-suffixed* `
 module.exports = {
   theme: {
      textShadow: {
-        default: '0 2px 0 #000',
-        md: '0 2px 2px #000',
-        h2: '0 0 3px #FF0000, 0 0 5px #0000FF',
-        h1: '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
+        'default': '0 2px 0 #000',
+        'md': '0 2px 2px #000',
+        'h2': '0 0 3px #FF0000, 0 0 5px #0000FF',
+        'h1': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
      }
    }
  }
@@ -112,7 +112,7 @@ module.exports = {
       // ...
       textShadow: {
         '2xl': '1px 1px 5px rgb(33 34 43 / 20%)',
-      '3xl': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
+        '3xl': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
       },
     },
   },
@@ -128,7 +128,7 @@ You can control which variants are generated for the text shadow utilities by mo
 
 For example, this config will also generate active and group-hover variants:
 
-> The variant name is **`textShadow`**.
+> Use the name **`textShadow`** under variants object.
 
 ```javascript
 // tailwind.config.js
