@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-textshadow",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "A Utility Plugins for controlling Text Shadow of an text element.",
   "main": "index.js",
   "keywords": [
@@ -20,13 +20,13 @@
   "copyright": "iunteq",
   "repository": {
     "type": "git",
-    "url": "git://github.com/iunteq/tailwindcss-textShadow.git"
+    "url": "git://github.com/iunteq/tailwindcss-textshadow.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": { "registry": "https://registry.npmjs.org/" },
   "bugs": {
-    "url": "https://github.com/iunteq/tailwindcss-textShadow/issues"
+    "url": "https://github.com/iunteq/tailwindcss-textshadow/issues"
   },
-  "homepage": "https://github.com/iunteq/tailwindcss-textShadow#readme",
+  "homepage": "https://github.com/iunteq/tailwindcss-textshadow#readme",
   "dependencies": {
     "tailwindcss": "^1.2.0"
   }

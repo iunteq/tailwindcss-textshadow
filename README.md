@@ -1,4 +1,4 @@
-# tailwindcss-textShadow
+# tailwindcss-textshadow
 A Utility Plugins for controlling Text Shadow of an text element.
 
 
@@ -145,7 +145,7 @@ module.exports = {
 ## Credits
 
 - [Adam Wathan](https://github.com/adamwathan)
-- [Contributors](https://github.com/iunteq/tailwindcss-textShadow/graphs/contributors)
+- [Contributors](https://github.com/iunteq/tailwindcss-textshadow/graphs/contributors)
 
 > :green_heart: If you :+1: this, then please give a :star:. Thank you.
 
