@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/iunteq/tailwindcss-textshadow#readme",
   "dependencies": {
+    "lodash": "^4.17.21",
     "tailwindcss": "^1.2.0"
   }
 }
